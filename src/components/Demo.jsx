@@ -102,7 +102,7 @@ const Demo = () => {
                 <img
                   src={copied === item.url ? tick : copy}
                   alt={copied === item.url ? "tick_icon" : "copy_icon"}
-                  className="w-[80%] h-[60%] object-contain"
+                  className="w-[50%] h-[50%] object-contain"
                 />
               </div>
               <p className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate">
